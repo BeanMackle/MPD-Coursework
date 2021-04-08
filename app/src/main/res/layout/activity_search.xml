@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Gavin Mackle S1513818  -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:theme="@style/Theme.EQuakeStarterCode">
+
+
+        <Button
+            android:id="@+id/date1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_start_date"
+            android:onClick="Date1Picker"/>
+
+        <Button
+            android:id="@+id/date2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_end_date"
+            android:onClick="Date2Picker"/>
+
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_search"
+            android:onClick="SubmitSearch"/>
+
+        <TextView
+            android:id="@+id/north"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:singleLine="false"
+            android:text="@string/most_northely_earthquake" />
+
+        <TextView
+            android:id="@+id/east"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/most_eastily_earthquake" />
+
+        <TextView
+            android:id="@+id/south"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/most_southernly_earthquake" />
+
+        <TextView
+            android:id="@+id/west"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/most_westernly_eartquake" />
+
+        <TextView
+            android:id="@+id/deep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/deepest_earthquake" />
+
+        <TextView
+            android:id="@+id/shallowest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/most_shallow_earthquake" />
+
+        <TextView
+            android:id="@+id/strongest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/strongest_earthquake" />
+
+        <Button
+            android:id="@+id/seach_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back_search"
+            android:onClick="BackToMain"/>
+
+    </LinearLayout>
+</ScrollView>

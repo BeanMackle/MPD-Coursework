@@ -25,7 +25,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCqmjSCnmc-_j2S-O5gy_cmDCooZw2cj0E"
+            android:value="INSERT GMAPS KEY"
             />
 
         <activity
